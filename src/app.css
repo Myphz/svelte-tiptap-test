@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.table-body tr:nth-of-type(odd) {
+  @apply bg-background;
+}
+
+input {
+  font: inherit;
+  background: inherit;
+  color: inherit;
+}
+
+input:focus-visible {
+  outline: transparent;
+}
